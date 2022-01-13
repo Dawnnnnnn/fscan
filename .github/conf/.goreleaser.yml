@@ -29,8 +29,8 @@ builds:
         goarch: arm
       - goos: linux
         goarch: mips64
-    hooks:
-       post: upx --best -f -q "{{ .Path }}"
+#    hooks:
+#       post: upx --best -f -q "{{ .Path }}"
 
 # UnknownExecutableFormatException
 # CantPackException: can't pack new-exe
